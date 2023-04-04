@@ -1,0 +1,1367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2369AFF907B015804CC367DC /* Pods_Belleforet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F51A693F0D669EFC310BFC5 /* Pods_Belleforet.framework */; };
+		4D0785FB289BD95300848D16 /* TopMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0785FA289BD95300848D16 /* TopMenuCell.swift */; };
+		4D0785FC289BD9FD00848D16 /* TopMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0785FA289BD95300848D16 /* TopMenuCell.swift */; };
+		4D0785FD289BD9FD00848D16 /* TopMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0785FA289BD95300848D16 /* TopMenuCell.swift */; };
+		4D0785FE289BD9FE00848D16 /* TopMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0785FA289BD95300848D16 /* TopMenuCell.swift */; };
+		4D078600289C9C8E00848D16 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0785FF289C9C8E00848D16 /* UIColor+Ext.swift */; };
+		4D078601289C9C8E00848D16 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0785FF289C9C8E00848D16 /* UIColor+Ext.swift */; };
+		4D078602289C9C8E00848D16 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0785FF289C9C8E00848D16 /* UIColor+Ext.swift */; };
+		4D078603289C9C8E00848D16 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0785FF289C9C8E00848D16 /* UIColor+Ext.swift */; };
+		4D170EDA27D7236D006D68FE /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C6F27C49AE200F1F336 /* ApiConstants.swift */; };
+		4D170EDC27D7236D006D68FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5327C45C0000F1F336 /* AppDelegate.swift */; };
+		4D170EDD27D7236D006D68FE /* ApiRouter+SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7B27C49E3D00F1F336 /* ApiRouter+SideMenu.swift */; };
+		4D170EDE27D7236D006D68FE /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C6E27C49AE200F1F336 /* ApiService.swift */; };
+		4D170EDF27D7236D006D68FE /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA15EE827CF5A3400CFB0DB /* Util.swift */; };
+		4D170EE027D7236D006D68FE /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7927C49C9100F1F336 /* SideMenuModel.swift */; };
+		4D170EE127D7236D006D68FE /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79005C27C5D18300F52986 /* SideMenuCell.swift */; };
+		4D170EE427D7236D006D68FE /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7427C49B8B00F1F336 /* SideMenuViewModel.swift */; };
+		4D170EE527D7236D006D68FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5527C45C0000F1F336 /* SceneDelegate.swift */; };
+		4D170EE627D7236D006D68FE /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7027C49AE200F1F336 /* ApiRouter.swift */; };
+		4D170EE727D7236D006D68FE /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C6B27C46AEE00F1F336 /* SideMenuViewController.swift */; };
+		4D170EE827D7236D006D68FE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C6727C45CF700F1F336 /* MainViewController.swift */; };
+		4D170EE927D7236D006D68FE /* ApiService+SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7627C49C6400F1F336 /* ApiService+SideMenu.swift */; };
+		4D170EED27D7236D006D68FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5E27C45C0200F1F336 /* LaunchScreen.storyboard */; };
+		4D170EEE27D7236D006D68FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DA15EDC27C618F800CFB0DB /* GoogleService-Info.plist */; };
+		4D170EEF27D7236D006D68FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5C27C45C0200F1F336 /* Assets.xcassets */; };
+		4D258B7F28B60DDB001295B7 /* Info_do.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D258B7E28B60DDB001295B7 /* Info_do.plist */; };
+		4D49E12427ED44E1001D749B /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C6F27C49AE200F1F336 /* ApiConstants.swift */; };
+		4D49E12527ED44E1001D749B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5327C45C0000F1F336 /* AppDelegate.swift */; };
+		4D49E12627ED44E1001D749B /* ApiRouter+SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7B27C49E3D00F1F336 /* ApiRouter+SideMenu.swift */; };
+		4D49E12727ED44E1001D749B /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C6E27C49AE200F1F336 /* ApiService.swift */; };
+		4D49E12827ED44E1001D749B /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA15EE827CF5A3400CFB0DB /* Util.swift */; };
+		4D49E12927ED44E1001D749B /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7927C49C9100F1F336 /* SideMenuModel.swift */; };
+		4D49E12A27ED44E1001D749B /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79005C27C5D18300F52986 /* SideMenuCell.swift */; };
+		4D49E12B27ED44E1001D749B /* ApiService+UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D411727D999F500BC382B /* ApiService+UserInfo.swift */; };
+		4D49E12C27ED44E1001D749B /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7427C49B8B00F1F336 /* SideMenuViewModel.swift */; };
+		4D49E12D27ED44E1001D749B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5527C45C0000F1F336 /* SceneDelegate.swift */; };
+		4D49E12E27ED44E1001D749B /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7027C49AE200F1F336 /* ApiRouter.swift */; };
+		4D49E12F27ED44E1001D749B /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C6B27C46AEE00F1F336 /* SideMenuViewController.swift */; };
+		4D49E13027ED44E1001D749B /* ApiRouter+UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D411927D99A0A00BC382B /* ApiRouter+UserInfo.swift */; };
+		4D49E13127ED44E1001D749B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C6727C45CF700F1F336 /* MainViewController.swift */; };
+		4D49E13227ED44E1001D749B /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D411B27D99A5500BC382B /* UserInfoModel.swift */; };
+		4D49E13327ED44E1001D749B /* ApiService+SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7627C49C6400F1F336 /* ApiService+SideMenu.swift */; };
+		4D49E13427ED44E1001D749B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D411527D998F900BC382B /* MainViewModel.swift */; };
+		4D49E13627ED44E1001D749B /* Pods_Belleforet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F51A693F0D669EFC310BFC5 /* Pods_Belleforet.framework */; };
+		4D49E13727ED44E1001D749B /* Pods_Belleforet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F51A693F0D669EFC310BFC5 /* Pods_Belleforet.framework */; };
+		4D49E13927ED44E1001D749B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5E27C45C0200F1F336 /* LaunchScreen.storyboard */; };
+		4D49E13A27ED44E1001D749B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DA15EDC27C618F800CFB0DB /* GoogleService-Info.plist */; };
+		4D49E13B27ED44E1001D749B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5C27C45C0200F1F336 /* Assets.xcassets */; };
+		4D5BF97328B34DFB00E70811 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF97228B34DFB00E70811 /* IntroViewController.swift */; };
+		4D5BF97428B34DFB00E70811 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF97228B34DFB00E70811 /* IntroViewController.swift */; };
+		4D5BF97528B34DFB00E70811 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF97228B34DFB00E70811 /* IntroViewController.swift */; };
+		4D5BF97628B34DFB00E70811 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF97228B34DFB00E70811 /* IntroViewController.swift */; };
+		4D5BF97828B34E0600E70811 /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BF97728B34E0600E70811 /* Intro.storyboard */; };
+		4D5BF97928B34E0600E70811 /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BF97728B34E0600E70811 /* Intro.storyboard */; };
+		4D5BF97A28B34E0600E70811 /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BF97728B34E0600E70811 /* Intro.storyboard */; };
+		4D5BF97B28B34E0600E70811 /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BF97728B34E0600E70811 /* Intro.storyboard */; };
+		4D5BF97D28B34E6600E70811 /* IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF97C28B34E6600E70811 /* IntroViewModel.swift */; };
+		4D5BF97E28B34E6600E70811 /* IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF97C28B34E6600E70811 /* IntroViewModel.swift */; };
+		4D5BF97F28B34E6600E70811 /* IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF97C28B34E6600E70811 /* IntroViewModel.swift */; };
+		4D5BF98028B34E6600E70811 /* IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF97C28B34E6600E70811 /* IntroViewModel.swift */; };
+		4D5BF98228B34EFB00E70811 /* ApiService+Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF98128B34EFB00E70811 /* ApiService+Intro.swift */; };
+		4D5BF98328B34EFB00E70811 /* ApiService+Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF98128B34EFB00E70811 /* ApiService+Intro.swift */; };
+		4D5BF98428B34EFB00E70811 /* ApiService+Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF98128B34EFB00E70811 /* ApiService+Intro.swift */; };
+		4D5BF98528B34EFB00E70811 /* ApiService+Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF98128B34EFB00E70811 /* ApiService+Intro.swift */; };
+		4D5BF98728B34F1B00E70811 /* ApiRouter+Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF98628B34F1B00E70811 /* ApiRouter+Intro.swift */; };
+		4D5BF98828B34F1B00E70811 /* ApiRouter+Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF98628B34F1B00E70811 /* ApiRouter+Intro.swift */; };
+		4D5BF98928B34F1B00E70811 /* ApiRouter+Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF98628B34F1B00E70811 /* ApiRouter+Intro.swift */; };
+		4D5BF98A28B34F1B00E70811 /* ApiRouter+Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF98628B34F1B00E70811 /* ApiRouter+Intro.swift */; };
+		4D5BF98C28B34FC100E70811 /* IntroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF98B28B34FC100E70811 /* IntroModel.swift */; };
+		4D5BF98D28B34FC100E70811 /* IntroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF98B28B34FC100E70811 /* IntroModel.swift */; };
+		4D5BF98E28B34FC100E70811 /* IntroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF98B28B34FC100E70811 /* IntroModel.swift */; };
+		4D5BF98F28B34FC100E70811 /* IntroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF98B28B34FC100E70811 /* IntroModel.swift */; };
+		4D5BF99128B3590D00E70811 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF99028B3590D00E70811 /* UIViewController+Ext.swift */; };
+		4D5BF99228B3590D00E70811 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF99028B3590D00E70811 /* UIViewController+Ext.swift */; };
+		4D5BF99328B3590D00E70811 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF99028B3590D00E70811 /* UIViewController+Ext.swift */; };
+		4D5BF99428B3590D00E70811 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF99028B3590D00E70811 /* UIViewController+Ext.swift */; };
+		4D5BF99628B3597200E70811 /* UIControl+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF99528B3597200E70811 /* UIControl+Ext.swift */; };
+		4D5BF99728B3597200E70811 /* UIControl+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF99528B3597200E70811 /* UIControl+Ext.swift */; };
+		4D5BF99828B3597200E70811 /* UIControl+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF99528B3597200E70811 /* UIControl+Ext.swift */; };
+		4D5BF99928B3597200E70811 /* UIControl+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5BF99528B3597200E70811 /* UIControl+Ext.swift */; };
+		4D79005D27C5D18300F52986 /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79005C27C5D18300F52986 /* SideMenuCell.swift */; };
+		4D7D411627D998F900BC382B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D411527D998F900BC382B /* MainViewModel.swift */; };
+		4D7D411827D999F500BC382B /* ApiService+UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D411727D999F500BC382B /* ApiService+UserInfo.swift */; };
+		4D7D411A27D99A0A00BC382B /* ApiRouter+UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D411927D99A0A00BC382B /* ApiRouter+UserInfo.swift */; };
+		4D7D411C27D99A5500BC382B /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D411B27D99A5500BC382B /* UserInfoModel.swift */; };
+		4D7D411D27D9A62A00BC382B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D411527D998F900BC382B /* MainViewModel.swift */; };
+		4D7D411E27D9A63800BC382B /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D411B27D99A5500BC382B /* UserInfoModel.swift */; };
+		4D7D411F27D9A63F00BC382B /* ApiService+UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D411727D999F500BC382B /* ApiService+UserInfo.swift */; };
+		4D7D412027D9A64200BC382B /* ApiRouter+UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D411927D99A0A00BC382B /* ApiRouter+UserInfo.swift */; };
+		4D7D7E8027FC21E300BFC3F8 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C6F27C49AE200F1F336 /* ApiConstants.swift */; };
+		4D7D7E8127FC21E300BFC3F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5327C45C0000F1F336 /* AppDelegate.swift */; };
+		4D7D7E8227FC21E300BFC3F8 /* ApiRouter+SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7B27C49E3D00F1F336 /* ApiRouter+SideMenu.swift */; };
+		4D7D7E8327FC21E300BFC3F8 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C6E27C49AE200F1F336 /* ApiService.swift */; };
+		4D7D7E8427FC21E300BFC3F8 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA15EE827CF5A3400CFB0DB /* Util.swift */; };
+		4D7D7E8527FC21E300BFC3F8 /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7927C49C9100F1F336 /* SideMenuModel.swift */; };
+		4D7D7E8627FC21E300BFC3F8 /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79005C27C5D18300F52986 /* SideMenuCell.swift */; };
+		4D7D7E8727FC21E300BFC3F8 /* ApiService+UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D411727D999F500BC382B /* ApiService+UserInfo.swift */; };
+		4D7D7E8827FC21E300BFC3F8 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7427C49B8B00F1F336 /* SideMenuViewModel.swift */; };
+		4D7D7E8927FC21E300BFC3F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5527C45C0000F1F336 /* SceneDelegate.swift */; };
+		4D7D7E8A27FC21E300BFC3F8 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7027C49AE200F1F336 /* ApiRouter.swift */; };
+		4D7D7E8B27FC21E300BFC3F8 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C6B27C46AEE00F1F336 /* SideMenuViewController.swift */; };
+		4D7D7E8C27FC21E300BFC3F8 /* ApiRouter+UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D411927D99A0A00BC382B /* ApiRouter+UserInfo.swift */; };
+		4D7D7E8D27FC21E300BFC3F8 /* UserinfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8C98027ED7FD70073F916 /* UserinfoData.swift */; };
+		4D7D7E8E27FC21E300BFC3F8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C6727C45CF700F1F336 /* MainViewController.swift */; };
+		4D7D7E8F27FC21E300BFC3F8 /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D411B27D99A5500BC382B /* UserInfoModel.swift */; };
+		4D7D7E9027FC21E300BFC3F8 /* ApiService+SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7627C49C6400F1F336 /* ApiService+SideMenu.swift */; };
+		4D7D7E9127FC21E300BFC3F8 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D411527D998F900BC382B /* MainViewModel.swift */; };
+		4D7D7E9327FC21E300BFC3F8 /* Pods_Belleforet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F51A693F0D669EFC310BFC5 /* Pods_Belleforet.framework */; };
+		4D7D7E9427FC21E300BFC3F8 /* Pods_Belleforet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F51A693F0D669EFC310BFC5 /* Pods_Belleforet.framework */; };
+		4D7D7E9627FC21E300BFC3F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5E27C45C0200F1F336 /* LaunchScreen.storyboard */; };
+		4D7D7E9727FC21E300BFC3F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DA15EDC27C618F800CFB0DB /* GoogleService-Info.plist */; };
+		4D7D7E9827FC21E300BFC3F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5C27C45C0200F1F336 /* Assets.xcassets */; };
+		4D7D7E9927FC21E300BFC3F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5927C45C0000F1F336 /* Main.storyboard */; };
+		4D7E4C5427C45C0000F1F336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5327C45C0000F1F336 /* AppDelegate.swift */; };
+		4D7E4C5627C45C0000F1F336 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5527C45C0000F1F336 /* SceneDelegate.swift */; };
+		4D7E4C5D27C45C0200F1F336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5C27C45C0200F1F336 /* Assets.xcassets */; };
+		4D7E4C6027C45C0200F1F336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5E27C45C0200F1F336 /* LaunchScreen.storyboard */; };
+		4D7E4C6827C45CF700F1F336 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C6727C45CF700F1F336 /* MainViewController.swift */; };
+		4D7E4C6C27C46AEE00F1F336 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C6B27C46AEE00F1F336 /* SideMenuViewController.swift */; };
+		4D7E4C7127C49AE200F1F336 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C6E27C49AE200F1F336 /* ApiService.swift */; };
+		4D7E4C7227C49AE200F1F336 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C6F27C49AE200F1F336 /* ApiConstants.swift */; };
+		4D7E4C7327C49AE200F1F336 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7027C49AE200F1F336 /* ApiRouter.swift */; };
+		4D7E4C7527C49B8C00F1F336 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7427C49B8B00F1F336 /* SideMenuViewModel.swift */; };
+		4D7E4C7727C49C6400F1F336 /* ApiService+SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7627C49C6400F1F336 /* ApiService+SideMenu.swift */; };
+		4D7E4C7A27C49C9100F1F336 /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7927C49C9100F1F336 /* SideMenuModel.swift */; };
+		4D7E4C7C27C49E3D00F1F336 /* ApiRouter+SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E4C7B27C49E3D00F1F336 /* ApiRouter+SideMenu.swift */; };
+		4D9496B4282A4BDB00600BBF /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9496B3282A4BDB00600BBF /* UIView+Ext.swift */; };
+		4D9496B5282A4BDB00600BBF /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9496B3282A4BDB00600BBF /* UIView+Ext.swift */; };
+		4D9496B6282A4BDB00600BBF /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9496B3282A4BDB00600BBF /* UIView+Ext.swift */; };
+		4D9496B7282A4BDB00600BBF /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9496B3282A4BDB00600BBF /* UIView+Ext.swift */; };
+		4DA15EDD27C618F900CFB0DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DA15EDC27C618F800CFB0DB /* GoogleService-Info.plist */; };
+		4DA15EE927CF5A3400CFB0DB /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA15EE827CF5A3400CFB0DB /* Util.swift */; };
+		4DC5A97928B6129200264F38 /* Belleforet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DC5A97828B6129200264F38 /* Belleforet.plist */; };
+		4DC5A97A28B612FB00264F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5927C45C0000F1F336 /* Main.storyboard */; };
+		4DC5A97B28B612FB00264F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5927C45C0000F1F336 /* Main.storyboard */; };
+		4DC5A97C28B612FB00264F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7E4C5927C45C0000F1F336 /* Main.storyboard */; };
+		4DC5A98028B6139000264F38 /* Info_ip.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DC5A97F28B6139000264F38 /* Info_ip.plist */; };
+		4DD8C98127ED7FD70073F916 /* UserinfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8C98027ED7FD70073F916 /* UserinfoData.swift */; };
+		4DD8C98427EDCB010073F916 /* UserinfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8C98027ED7FD70073F916 /* UserinfoData.swift */; };
+		4DD8C98527EDCB010073F916 /* UserinfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8C98027ED7FD70073F916 /* UserinfoData.swift */; };
+		BE7E3685298A686E0079A4FF /* ApiService+MenuCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E3684298A686E0079A4FF /* ApiService+MenuCount.swift */; };
+		BE7E3686298A686E0079A4FF /* ApiService+MenuCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E3684298A686E0079A4FF /* ApiService+MenuCount.swift */; };
+		BE7E3687298A686E0079A4FF /* ApiService+MenuCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E3684298A686E0079A4FF /* ApiService+MenuCount.swift */; };
+		BE7E3688298A686E0079A4FF /* ApiService+MenuCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E3684298A686E0079A4FF /* ApiService+MenuCount.swift */; };
+		BE7E368A298A689F0079A4FF /* ApiRouter+MenuCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E3689298A689F0079A4FF /* ApiRouter+MenuCount.swift */; };
+		BE7E368B298A689F0079A4FF /* ApiRouter+MenuCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E3689298A689F0079A4FF /* ApiRouter+MenuCount.swift */; };
+		BE7E368C298A689F0079A4FF /* ApiRouter+MenuCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E3689298A689F0079A4FF /* ApiRouter+MenuCount.swift */; };
+		BE7E368D298A689F0079A4FF /* ApiRouter+MenuCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E3689298A689F0079A4FF /* ApiRouter+MenuCount.swift */; };
+		BE7E368F298A68C70079A4FF /* MenuCountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E368E298A68C70079A4FF /* MenuCountModel.swift */; };
+		BE7E3690298A68C70079A4FF /* MenuCountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E368E298A68C70079A4FF /* MenuCountModel.swift */; };
+		BE7E3691298A68C70079A4FF /* MenuCountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E368E298A68C70079A4FF /* MenuCountModel.swift */; };
+		BE7E3692298A68C70079A4FF /* MenuCountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E368E298A68C70079A4FF /* MenuCountModel.swift */; };
+		BE7E3694298A9D330079A4FF /* MenuCountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E3693298A9D330079A4FF /* MenuCountViewModel.swift */; };
+		BE7E3695298A9D330079A4FF /* MenuCountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E3693298A9D330079A4FF /* MenuCountViewModel.swift */; };
+		BE7E3696298A9D330079A4FF /* MenuCountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E3693298A9D330079A4FF /* MenuCountViewModel.swift */; };
+		BE7E3697298A9D330079A4FF /* MenuCountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7E3693298A9D330079A4FF /* MenuCountViewModel.swift */; };
+		CFCB7465E040151AAEEAD85C /* Pods_Belleforet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F51A693F0D669EFC310BFC5 /* Pods_Belleforet.framework */; };
+		D80C3F68EC4AD5B1ED50F9F8 /* Pods_Belleforet_ip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56013C1B872AE15551F95B7 /* Pods_Belleforet_ip.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		149C50DAA21F86EBD49C593E /* Pods-Belleforet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Belleforet.debug.xcconfig"; path = "Target Support Files/Pods-Belleforet/Pods-Belleforet.debug.xcconfig"; sourceTree = "<group>"; };
+		3356B0F8A1C3BFA4154B805A /* Pods-Belleforet ip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Belleforet ip.release.xcconfig"; path = "Target Support Files/Pods-Belleforet ip/Pods-Belleforet ip.release.xcconfig"; sourceTree = "<group>"; };
+		4D0785FA289BD95300848D16 /* TopMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuCell.swift; sourceTree = "<group>"; };
+		4D0785FF289C9C8E00848D16 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		4D170EF527D7236D006D68FE /* Belleforet ip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Belleforet ip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D170EF727D739FF006D68FE /* BelleforetRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BelleforetRelease.entitlements; sourceTree = "<group>"; };
+		4D258B7E28B60DDB001295B7 /* Info_do.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_do.plist; sourceTree = "<group>"; };
+		4D49E14127ED44E1001D749B /* Belleforet do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Belleforet do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5BF97228B34DFB00E70811 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		4D5BF97728B34E0600E70811 /* Intro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Intro.storyboard; sourceTree = "<group>"; };
+		4D5BF97C28B34E6600E70811 /* IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewModel.swift; sourceTree = "<group>"; };
+		4D5BF98128B34EFB00E70811 /* ApiService+Intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiService+Intro.swift"; sourceTree = "<group>"; };
+		4D5BF98628B34F1B00E70811 /* ApiRouter+Intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiRouter+Intro.swift"; sourceTree = "<group>"; };
+		4D5BF98B28B34FC100E70811 /* IntroModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroModel.swift; sourceTree = "<group>"; };
+		4D5BF99028B3590D00E70811 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		4D5BF99528B3597200E70811 /* UIControl+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+Ext.swift"; sourceTree = "<group>"; };
+		4D5F681E28B6109B00ED797E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D79005C27C5D18300F52986 /* SideMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
+		4D7D411527D998F900BC382B /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		4D7D411727D999F500BC382B /* ApiService+UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiService+UserInfo.swift"; sourceTree = "<group>"; };
+		4D7D411927D99A0A00BC382B /* ApiRouter+UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiRouter+UserInfo.swift"; sourceTree = "<group>"; };
+		4D7D411B27D99A5500BC382B /* UserInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
+		4D7D7E9F27FC21E300BFC3F8 /* Belleforet_real.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Belleforet_real.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7E4C5027C45C0000F1F336 /* Belleforet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Belleforet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7E4C5327C45C0000F1F336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D7E4C5527C45C0000F1F336 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4D7E4C5A27C45C0000F1F336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D7E4C5C27C45C0200F1F336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D7E4C5F27C45C0200F1F336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D7E4C6727C45CF700F1F336 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4D7E4C6B27C46AEE00F1F336 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		4D7E4C6E27C49AE200F1F336 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		4D7E4C6F27C49AE200F1F336 /* ApiConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		4D7E4C7027C49AE200F1F336 /* ApiRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
+		4D7E4C7427C49B8B00F1F336 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		4D7E4C7627C49C6400F1F336 /* ApiService+SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApiService+SideMenu.swift"; sourceTree = "<group>"; };
+		4D7E4C7927C49C9100F1F336 /* SideMenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuModel.swift; sourceTree = "<group>"; };
+		4D7E4C7B27C49E3D00F1F336 /* ApiRouter+SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ApiRouter+SideMenu.swift"; sourceTree = "<group>"; };
+		4D9496B3282A4BDB00600BBF /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		4DA15EDC27C618F800CFB0DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4DA15EDE27C61E2000CFB0DB /* BelleforetDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BelleforetDebug.entitlements; sourceTree = "<group>"; };
+		4DA15EE827CF5A3400CFB0DB /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		4DC5A97828B6129200264F38 /* Belleforet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Belleforet.plist; sourceTree = "<group>"; };
+		4DC5A97F28B6139000264F38 /* Info_ip.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_ip.plist; sourceTree = "<group>"; };
+		4DD8C98027ED7FD70073F916 /* UserinfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserinfoData.swift; sourceTree = "<group>"; };
+		7F51A693F0D669EFC310BFC5 /* Pods_Belleforet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Belleforet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB933F7211811213E92873C /* Pods-Belleforet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Belleforet.release.xcconfig"; path = "Target Support Files/Pods-Belleforet/Pods-Belleforet.release.xcconfig"; sourceTree = "<group>"; };
+		B56013C1B872AE15551F95B7 /* Pods_Belleforet_ip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Belleforet_ip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7E3684298A686E0079A4FF /* ApiService+MenuCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApiService+MenuCount.swift"; sourceTree = "<group>"; };
+		BE7E3689298A689F0079A4FF /* ApiRouter+MenuCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApiRouter+MenuCount.swift"; sourceTree = "<group>"; };
+		BE7E368E298A68C70079A4FF /* MenuCountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCountModel.swift; sourceTree = "<group>"; };
+		BE7E3693298A9D330079A4FF /* MenuCountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCountViewModel.swift; sourceTree = "<group>"; };
+		C90199326396039FAD0C523C /* Pods-Belleforet ip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Belleforet ip.debug.xcconfig"; path = "Target Support Files/Pods-Belleforet ip/Pods-Belleforet ip.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D170EEA27D7236D006D68FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80C3F68EC4AD5B1ED50F9F8 /* Pods_Belleforet_ip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D49E13527ED44E1001D749B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D49E13627ED44E1001D749B /* Pods_Belleforet.framework in Frameworks */,
+				4D49E13727ED44E1001D749B /* Pods_Belleforet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7D7E9227FC21E300BFC3F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7D7E9327FC21E300BFC3F8 /* Pods_Belleforet.framework in Frameworks */,
+				4D7D7E9427FC21E300BFC3F8 /* Pods_Belleforet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7E4C4D27C45C0000F1F336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2369AFF907B015804CC367DC /* Pods_Belleforet.framework in Frameworks */,
+				CFCB7465E040151AAEEAD85C /* Pods_Belleforet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D5BF96F28B34DC200E70811 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				4D5BF97728B34E0600E70811 /* Intro.storyboard */,
+				4D5BF97228B34DFB00E70811 /* IntroViewController.swift */,
+				4D5BF97C28B34E6600E70811 /* IntroViewModel.swift */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		4D5BF97028B34DCC00E70811 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4D5BF97128B34DDE00E70811 /* Cell */,
+				4D7E4C5927C45C0000F1F336 /* Main.storyboard */,
+				4D7E4C6727C45CF700F1F336 /* MainViewController.swift */,
+				4D7D411527D998F900BC382B /* MainViewModel.swift */,
+				4D7E4C6B27C46AEE00F1F336 /* SideMenuViewController.swift */,
+				4D7E4C7427C49B8B00F1F336 /* SideMenuViewModel.swift */,
+				BE7E3693298A9D330079A4FF /* MenuCountViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4D5BF97128B34DDE00E70811 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4D79005C27C5D18300F52986 /* SideMenuCell.swift */,
+				4D0785FA289BD95300848D16 /* TopMenuCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4D7E4C4727C45C0000F1F336 = {
+			isa = PBXGroup;
+			children = (
+				4D7E4C5227C45C0000F1F336 /* Belleforet */,
+				4D7E4C5127C45C0000F1F336 /* Products */,
+				7367CB9A6F24DBDC8F8438BC /* Pods */,
+				629BA2B1030E22FF00241810 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D7E4C5127C45C0000F1F336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D7E4C5027C45C0000F1F336 /* Belleforet.app */,
+				4D170EF527D7236D006D68FE /* Belleforet ip.app */,
+				4D49E14127ED44E1001D749B /* Belleforet do.app */,
+				4D7D7E9F27FC21E300BFC3F8 /* Belleforet_real.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D7E4C5227C45C0000F1F336 /* Belleforet */ = {
+			isa = PBXGroup;
+			children = (
+				4D170EF727D739FF006D68FE /* BelleforetRelease.entitlements */,
+				4DA15EDE27C61E2000CFB0DB /* BelleforetDebug.entitlements */,
+				4D7E4C5327C45C0000F1F336 /* AppDelegate.swift */,
+				4D7E4C5527C45C0000F1F336 /* SceneDelegate.swift */,
+				4D7E4C5E27C45C0200F1F336 /* LaunchScreen.storyboard */,
+				4D5BF96F28B34DC200E70811 /* Intro */,
+				4D5BF97028B34DCC00E70811 /* Main */,
+				4DA15EE827CF5A3400CFB0DB /* Util.swift */,
+				4DD8C98027ED7FD70073F916 /* UserinfoData.swift */,
+				4D7E4C7827C49C7C00F1F336 /* Model */,
+				4D7E4C8627C4A5EC00F1F336 /* Extension */,
+				4D7E4C6D27C49AD200F1F336 /* API */,
+				4D7E4C5C27C45C0200F1F336 /* Assets.xcassets */,
+				4D5F681E28B6109B00ED797E /* Info.plist */,
+				4DC5A97F28B6139000264F38 /* Info_ip.plist */,
+				4D258B7E28B60DDB001295B7 /* Info_do.plist */,
+				4DC5A97828B6129200264F38 /* Belleforet.plist */,
+				4DA15EDC27C618F800CFB0DB /* GoogleService-Info.plist */,
+			);
+			path = Belleforet;
+			sourceTree = "<group>";
+		};
+		4D7E4C6D27C49AD200F1F336 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4D7E4C6F27C49AE200F1F336 /* ApiConstants.swift */,
+				4D7E4C7027C49AE200F1F336 /* ApiRouter.swift */,
+				4D7E4C6E27C49AE200F1F336 /* ApiService.swift */,
+				BE7E3684298A686E0079A4FF /* ApiService+MenuCount.swift */,
+				4D7E4C7627C49C6400F1F336 /* ApiService+SideMenu.swift */,
+				4D7D411727D999F500BC382B /* ApiService+UserInfo.swift */,
+				4D5BF98128B34EFB00E70811 /* ApiService+Intro.swift */,
+				BE7E3689298A689F0079A4FF /* ApiRouter+MenuCount.swift */,
+				4D7E4C7B27C49E3D00F1F336 /* ApiRouter+SideMenu.swift */,
+				4D7D411927D99A0A00BC382B /* ApiRouter+UserInfo.swift */,
+				4D5BF98628B34F1B00E70811 /* ApiRouter+Intro.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4D7E4C7827C49C7C00F1F336 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D7E4C7927C49C9100F1F336 /* SideMenuModel.swift */,
+				4D7D411B27D99A5500BC382B /* UserInfoModel.swift */,
+				4D5BF98B28B34FC100E70811 /* IntroModel.swift */,
+				BE7E368E298A68C70079A4FF /* MenuCountModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D7E4C8627C4A5EC00F1F336 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4D0785FF289C9C8E00848D16 /* UIColor+Ext.swift */,
+				4D9496B3282A4BDB00600BBF /* UIView+Ext.swift */,
+				4D5BF99028B3590D00E70811 /* UIViewController+Ext.swift */,
+				4D5BF99528B3597200E70811 /* UIControl+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		629BA2B1030E22FF00241810 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F51A693F0D669EFC310BFC5 /* Pods_Belleforet.framework */,
+				B56013C1B872AE15551F95B7 /* Pods_Belleforet_ip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7367CB9A6F24DBDC8F8438BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				149C50DAA21F86EBD49C593E /* Pods-Belleforet.debug.xcconfig */,
+				8BB933F7211811213E92873C /* Pods-Belleforet.release.xcconfig */,
+				C90199326396039FAD0C523C /* Pods-Belleforet ip.debug.xcconfig */,
+				3356B0F8A1C3BFA4154B805A /* Pods-Belleforet ip.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D170ED627D7236D006D68FE /* Belleforet ip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D170EF227D7236D006D68FE /* Build configuration list for PBXNativeTarget "Belleforet ip" */;
+			buildPhases = (
+				CE55A48CE2B32545B49417CB /* [CP] Check Pods Manifest.lock */,
+				4D170ED827D7236D006D68FE /* Sources */,
+				4D170EEA27D7236D006D68FE /* Frameworks */,
+				4D170EEC27D7236D006D68FE /* Resources */,
+				AABBE5F5C9C0F667A8B86FBD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Belleforet ip";
+			productName = Belleforet;
+			productReference = 4D170EF527D7236D006D68FE /* Belleforet ip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D49E12027ED44E1001D749B /* Belleforet do */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D49E13E27ED44E1001D749B /* Build configuration list for PBXNativeTarget "Belleforet do" */;
+			buildPhases = (
+				4D49E12127ED44E1001D749B /* [CP] Check Pods Manifest.lock */,
+				4D49E12227ED44E1001D749B /* Sources */,
+				4D49E13527ED44E1001D749B /* Frameworks */,
+				4D49E13827ED44E1001D749B /* Resources */,
+				4D49E13D27ED44E1001D749B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Belleforet do";
+			productName = Belleforet;
+			productReference = 4D49E14127ED44E1001D749B /* Belleforet do.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D7D7E7C27FC21E300BFC3F8 /* Belleforet_real */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7D7E9C27FC21E300BFC3F8 /* Build configuration list for PBXNativeTarget "Belleforet_real" */;
+			buildPhases = (
+				4D7D7E7D27FC21E300BFC3F8 /* [CP] Check Pods Manifest.lock */,
+				4D7D7E7E27FC21E300BFC3F8 /* Sources */,
+				4D7D7E9227FC21E300BFC3F8 /* Frameworks */,
+				4D7D7E9527FC21E300BFC3F8 /* Resources */,
+				4D7D7E9B27FC21E300BFC3F8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Belleforet_real;
+			productName = Belleforet;
+			productReference = 4D7D7E9F27FC21E300BFC3F8 /* Belleforet_real.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D7E4C4F27C45C0000F1F336 /* Belleforet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7E4C6427C45C0200F1F336 /* Build configuration list for PBXNativeTarget "Belleforet" */;
+			buildPhases = (
+				3C7DB36D92778055B3E246C6 /* [CP] Check Pods Manifest.lock */,
+				4D7E4C4C27C45C0000F1F336 /* Sources */,
+				4D7E4C4D27C45C0000F1F336 /* Frameworks */,
+				4D7E4C4E27C45C0000F1F336 /* Resources */,
+				53B80875F7A172431BDBC5EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Belleforet;
+			productName = Belleforet;
+			productReference = 4D7E4C5027C45C0000F1F336 /* Belleforet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D7E4C4827C45C0000F1F336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4D7E4C4F27C45C0000F1F336 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4D7E4C4B27C45C0000F1F336 /* Build configuration list for PBXProject "Belleforet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D7E4C4727C45C0000F1F336;
+			productRefGroup = 4D7E4C5127C45C0000F1F336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D7E4C4F27C45C0000F1F336 /* Belleforet */,
+				4D170ED627D7236D006D68FE /* Belleforet ip */,
+				4D49E12027ED44E1001D749B /* Belleforet do */,
+				4D7D7E7C27FC21E300BFC3F8 /* Belleforet_real */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D170EEC27D7236D006D68FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D170EED27D7236D006D68FE /* LaunchScreen.storyboard in Resources */,
+				4D170EEE27D7236D006D68FE /* GoogleService-Info.plist in Resources */,
+				4DC5A97B28B612FB00264F38 /* Main.storyboard in Resources */,
+				4DC5A98028B6139000264F38 /* Info_ip.plist in Resources */,
+				4D170EEF27D7236D006D68FE /* Assets.xcassets in Resources */,
+				4D5BF97928B34E0600E70811 /* Intro.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D49E13827ED44E1001D749B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D49E13927ED44E1001D749B /* LaunchScreen.storyboard in Resources */,
+				4D49E13A27ED44E1001D749B /* GoogleService-Info.plist in Resources */,
+				4D49E13B27ED44E1001D749B /* Assets.xcassets in Resources */,
+				4DC5A97A28B612FB00264F38 /* Main.storyboard in Resources */,
+				4D5BF97A28B34E0600E70811 /* Intro.storyboard in Resources */,
+				4D258B7F28B60DDB001295B7 /* Info_do.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7D7E9527FC21E300BFC3F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7D7E9627FC21E300BFC3F8 /* LaunchScreen.storyboard in Resources */,
+				4D7D7E9727FC21E300BFC3F8 /* GoogleService-Info.plist in Resources */,
+				4D7D7E9827FC21E300BFC3F8 /* Assets.xcassets in Resources */,
+				4DC5A97928B6129200264F38 /* Belleforet.plist in Resources */,
+				4D7D7E9927FC21E300BFC3F8 /* Main.storyboard in Resources */,
+				4D5BF97B28B34E0600E70811 /* Intro.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7E4C4E27C45C0000F1F336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7E4C6027C45C0200F1F336 /* LaunchScreen.storyboard in Resources */,
+				4DC5A97C28B612FB00264F38 /* Main.storyboard in Resources */,
+				4DA15EDD27C618F900CFB0DB /* GoogleService-Info.plist in Resources */,
+				4D7E4C5D27C45C0200F1F336 /* Assets.xcassets in Resources */,
+				4D5BF97828B34E0600E70811 /* Intro.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C7DB36D92778055B3E246C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Belleforet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D49E12127ED44E1001D749B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Belleforet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D49E13D27ED44E1001D749B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Belleforet/Pods-Belleforet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Belleforet/Pods-Belleforet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Belleforet/Pods-Belleforet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D7D7E7D27FC21E300BFC3F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Belleforet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D7D7E9B27FC21E300BFC3F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Belleforet/Pods-Belleforet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Belleforet/Pods-Belleforet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Belleforet/Pods-Belleforet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53B80875F7A172431BDBC5EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Belleforet/Pods-Belleforet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Belleforet/Pods-Belleforet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Belleforet/Pods-Belleforet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AABBE5F5C9C0F667A8B86FBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Belleforet ip/Pods-Belleforet ip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Belleforet ip/Pods-Belleforet ip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Belleforet ip/Pods-Belleforet ip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE55A48CE2B32545B49417CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Belleforet ip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D170ED827D7236D006D68FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7E3690298A68C70079A4FF /* MenuCountModel.swift in Sources */,
+				4D078601289C9C8E00848D16 /* UIColor+Ext.swift in Sources */,
+				4D170EDA27D7236D006D68FE /* ApiConstants.swift in Sources */,
+				4D170EDC27D7236D006D68FE /* AppDelegate.swift in Sources */,
+				4D170EDD27D7236D006D68FE /* ApiRouter+SideMenu.swift in Sources */,
+				4D170EDE27D7236D006D68FE /* ApiService.swift in Sources */,
+				4D0785FC289BD9FD00848D16 /* TopMenuCell.swift in Sources */,
+				4D170EDF27D7236D006D68FE /* Util.swift in Sources */,
+				BE7E3686298A686E0079A4FF /* ApiService+MenuCount.swift in Sources */,
+				4D170EE027D7236D006D68FE /* SideMenuModel.swift in Sources */,
+				4D9496B5282A4BDB00600BBF /* UIView+Ext.swift in Sources */,
+				4D5BF99728B3597200E70811 /* UIControl+Ext.swift in Sources */,
+				4D170EE127D7236D006D68FE /* SideMenuCell.swift in Sources */,
+				4D7D412027D9A64200BC382B /* ApiRouter+UserInfo.swift in Sources */,
+				4D5BF98328B34EFB00E70811 /* ApiService+Intro.swift in Sources */,
+				4D5BF98D28B34FC100E70811 /* IntroModel.swift in Sources */,
+				4D170EE427D7236D006D68FE /* SideMenuViewModel.swift in Sources */,
+				4D170EE527D7236D006D68FE /* SceneDelegate.swift in Sources */,
+				4D5BF97E28B34E6600E70811 /* IntroViewModel.swift in Sources */,
+				BE7E368B298A689F0079A4FF /* ApiRouter+MenuCount.swift in Sources */,
+				4D170EE627D7236D006D68FE /* ApiRouter.swift in Sources */,
+				4D170EE727D7236D006D68FE /* SideMenuViewController.swift in Sources */,
+				4D170EE827D7236D006D68FE /* MainViewController.swift in Sources */,
+				4DD8C98427EDCB010073F916 /* UserinfoData.swift in Sources */,
+				4D170EE927D7236D006D68FE /* ApiService+SideMenu.swift in Sources */,
+				4D7D411F27D9A63F00BC382B /* ApiService+UserInfo.swift in Sources */,
+				4D5BF97428B34DFB00E70811 /* IntroViewController.swift in Sources */,
+				4D7D411D27D9A62A00BC382B /* MainViewModel.swift in Sources */,
+				4D5BF98828B34F1B00E70811 /* ApiRouter+Intro.swift in Sources */,
+				BE7E3695298A9D330079A4FF /* MenuCountViewModel.swift in Sources */,
+				4D7D411E27D9A63800BC382B /* UserInfoModel.swift in Sources */,
+				4D5BF99228B3590D00E70811 /* UIViewController+Ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D49E12227ED44E1001D749B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7E3691298A68C70079A4FF /* MenuCountModel.swift in Sources */,
+				4D078602289C9C8E00848D16 /* UIColor+Ext.swift in Sources */,
+				4D49E12427ED44E1001D749B /* ApiConstants.swift in Sources */,
+				4D49E12527ED44E1001D749B /* AppDelegate.swift in Sources */,
+				4D49E12627ED44E1001D749B /* ApiRouter+SideMenu.swift in Sources */,
+				4D49E12727ED44E1001D749B /* ApiService.swift in Sources */,
+				4D0785FD289BD9FD00848D16 /* TopMenuCell.swift in Sources */,
+				4D49E12827ED44E1001D749B /* Util.swift in Sources */,
+				BE7E3687298A686E0079A4FF /* ApiService+MenuCount.swift in Sources */,
+				4D49E12927ED44E1001D749B /* SideMenuModel.swift in Sources */,
+				4D9496B6282A4BDB00600BBF /* UIView+Ext.swift in Sources */,
+				4D5BF99828B3597200E70811 /* UIControl+Ext.swift in Sources */,
+				4D49E12A27ED44E1001D749B /* SideMenuCell.swift in Sources */,
+				4D49E12B27ED44E1001D749B /* ApiService+UserInfo.swift in Sources */,
+				4D5BF98428B34EFB00E70811 /* ApiService+Intro.swift in Sources */,
+				4D5BF98E28B34FC100E70811 /* IntroModel.swift in Sources */,
+				4D49E12C27ED44E1001D749B /* SideMenuViewModel.swift in Sources */,
+				4D49E12D27ED44E1001D749B /* SceneDelegate.swift in Sources */,
+				4D5BF97F28B34E6600E70811 /* IntroViewModel.swift in Sources */,
+				BE7E368C298A689F0079A4FF /* ApiRouter+MenuCount.swift in Sources */,
+				4D49E12E27ED44E1001D749B /* ApiRouter.swift in Sources */,
+				4D49E12F27ED44E1001D749B /* SideMenuViewController.swift in Sources */,
+				4D49E13027ED44E1001D749B /* ApiRouter+UserInfo.swift in Sources */,
+				4DD8C98527EDCB010073F916 /* UserinfoData.swift in Sources */,
+				4D49E13127ED44E1001D749B /* MainViewController.swift in Sources */,
+				4D49E13227ED44E1001D749B /* UserInfoModel.swift in Sources */,
+				4D5BF97528B34DFB00E70811 /* IntroViewController.swift in Sources */,
+				4D49E13327ED44E1001D749B /* ApiService+SideMenu.swift in Sources */,
+				4D5BF98928B34F1B00E70811 /* ApiRouter+Intro.swift in Sources */,
+				BE7E3696298A9D330079A4FF /* MenuCountViewModel.swift in Sources */,
+				4D49E13427ED44E1001D749B /* MainViewModel.swift in Sources */,
+				4D5BF99328B3590D00E70811 /* UIViewController+Ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7D7E7E27FC21E300BFC3F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7E3692298A68C70079A4FF /* MenuCountModel.swift in Sources */,
+				4D078603289C9C8E00848D16 /* UIColor+Ext.swift in Sources */,
+				4D7D7E8027FC21E300BFC3F8 /* ApiConstants.swift in Sources */,
+				4D7D7E8127FC21E300BFC3F8 /* AppDelegate.swift in Sources */,
+				4D7D7E8227FC21E300BFC3F8 /* ApiRouter+SideMenu.swift in Sources */,
+				4D7D7E8327FC21E300BFC3F8 /* ApiService.swift in Sources */,
+				4D0785FE289BD9FE00848D16 /* TopMenuCell.swift in Sources */,
+				4D7D7E8427FC21E300BFC3F8 /* Util.swift in Sources */,
+				BE7E3688298A686E0079A4FF /* ApiService+MenuCount.swift in Sources */,
+				4D7D7E8527FC21E300BFC3F8 /* SideMenuModel.swift in Sources */,
+				4D9496B7282A4BDB00600BBF /* UIView+Ext.swift in Sources */,
+				4D5BF99928B3597200E70811 /* UIControl+Ext.swift in Sources */,
+				4D7D7E8627FC21E300BFC3F8 /* SideMenuCell.swift in Sources */,
+				4D7D7E8727FC21E300BFC3F8 /* ApiService+UserInfo.swift in Sources */,
+				4D5BF98528B34EFB00E70811 /* ApiService+Intro.swift in Sources */,
+				4D5BF98F28B34FC100E70811 /* IntroModel.swift in Sources */,
+				4D7D7E8827FC21E300BFC3F8 /* SideMenuViewModel.swift in Sources */,
+				4D7D7E8927FC21E300BFC3F8 /* SceneDelegate.swift in Sources */,
+				4D5BF98028B34E6600E70811 /* IntroViewModel.swift in Sources */,
+				BE7E368D298A689F0079A4FF /* ApiRouter+MenuCount.swift in Sources */,
+				4D7D7E8A27FC21E300BFC3F8 /* ApiRouter.swift in Sources */,
+				4D7D7E8B27FC21E300BFC3F8 /* SideMenuViewController.swift in Sources */,
+				4D7D7E8C27FC21E300BFC3F8 /* ApiRouter+UserInfo.swift in Sources */,
+				4D7D7E8D27FC21E300BFC3F8 /* UserinfoData.swift in Sources */,
+				4D7D7E8E27FC21E300BFC3F8 /* MainViewController.swift in Sources */,
+				4D7D7E8F27FC21E300BFC3F8 /* UserInfoModel.swift in Sources */,
+				4D5BF97628B34DFB00E70811 /* IntroViewController.swift in Sources */,
+				4D7D7E9027FC21E300BFC3F8 /* ApiService+SideMenu.swift in Sources */,
+				4D5BF98A28B34F1B00E70811 /* ApiRouter+Intro.swift in Sources */,
+				BE7E3697298A9D330079A4FF /* MenuCountViewModel.swift in Sources */,
+				4D7D7E9127FC21E300BFC3F8 /* MainViewModel.swift in Sources */,
+				4D5BF99428B3590D00E70811 /* UIViewController+Ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7E4C4C27C45C0000F1F336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7E368F298A68C70079A4FF /* MenuCountModel.swift in Sources */,
+				BE7E368A298A689F0079A4FF /* ApiRouter+MenuCount.swift in Sources */,
+				4D078600289C9C8E00848D16 /* UIColor+Ext.swift in Sources */,
+				4D7E4C7227C49AE200F1F336 /* ApiConstants.swift in Sources */,
+				4D7E4C5427C45C0000F1F336 /* AppDelegate.swift in Sources */,
+				4D7E4C7C27C49E3D00F1F336 /* ApiRouter+SideMenu.swift in Sources */,
+				4D7E4C7127C49AE200F1F336 /* ApiService.swift in Sources */,
+				4D0785FB289BD95300848D16 /* TopMenuCell.swift in Sources */,
+				4DA15EE927CF5A3400CFB0DB /* Util.swift in Sources */,
+				4D7E4C7A27C49C9100F1F336 /* SideMenuModel.swift in Sources */,
+				4D9496B4282A4BDB00600BBF /* UIView+Ext.swift in Sources */,
+				4D5BF99628B3597200E70811 /* UIControl+Ext.swift in Sources */,
+				4D79005D27C5D18300F52986 /* SideMenuCell.swift in Sources */,
+				4D7D411827D999F500BC382B /* ApiService+UserInfo.swift in Sources */,
+				4D5BF98228B34EFB00E70811 /* ApiService+Intro.swift in Sources */,
+				4D5BF98C28B34FC100E70811 /* IntroModel.swift in Sources */,
+				4D7E4C7527C49B8C00F1F336 /* SideMenuViewModel.swift in Sources */,
+				4D7E4C5627C45C0000F1F336 /* SceneDelegate.swift in Sources */,
+				4D5BF97D28B34E6600E70811 /* IntroViewModel.swift in Sources */,
+				4D7E4C7327C49AE200F1F336 /* ApiRouter.swift in Sources */,
+				BE7E3685298A686E0079A4FF /* ApiService+MenuCount.swift in Sources */,
+				4D7E4C6C27C46AEE00F1F336 /* SideMenuViewController.swift in Sources */,
+				4D7D411A27D99A0A00BC382B /* ApiRouter+UserInfo.swift in Sources */,
+				4DD8C98127ED7FD70073F916 /* UserinfoData.swift in Sources */,
+				4D7E4C6827C45CF700F1F336 /* MainViewController.swift in Sources */,
+				4D7D411C27D99A5500BC382B /* UserInfoModel.swift in Sources */,
+				4D5BF97328B34DFB00E70811 /* IntroViewController.swift in Sources */,
+				4D7E4C7727C49C6400F1F336 /* ApiService+SideMenu.swift in Sources */,
+				4D5BF98728B34F1B00E70811 /* ApiRouter+Intro.swift in Sources */,
+				BE7E3694298A9D330079A4FF /* MenuCountViewModel.swift in Sources */,
+				4D7D411627D998F900BC382B /* MainViewModel.swift in Sources */,
+				4D5BF99128B3590D00E70811 /* UIViewController+Ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D7E4C5927C45C0000F1F336 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D7E4C5A27C45C0000F1F336 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D7E4C5E27C45C0200F1F336 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D7E4C5F27C45C0200F1F336 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D170EF327D7236D006D68FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C90199326396039FAD0C523C /* Pods-Belleforet ip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Belleforet/BelleforetDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = W3SVWV6Z8L;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Belleforet/Info_ip.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "벨포레_ip";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Intro;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bstone.belleforet.ip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG_ip;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4D170EF427D7236D006D68FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3356B0F8A1C3BFA4154B805A /* Pods-Belleforet ip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Belleforet/BelleforetRelease.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = W3SVWV6Z8L;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Belleforet/Info_ip.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "벨포레_ip";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Intro;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bstone.belleforet.ip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Belleforet_ip_adhoc;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG_ip;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4D49E13F27ED44E1001D749B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 149C50DAA21F86EBD49C593E /* Pods-Belleforet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Belleforet/BelleforetDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = W3SVWV6Z8L;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Belleforet/Info_do.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "벨포레_do";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Intro;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bstone.belleforet.do;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG_do;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4D49E14027ED44E1001D749B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB933F7211811213E92873C /* Pods-Belleforet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Belleforet/BelleforetRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = W3SVWV6Z8L;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Belleforet/Info_do.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "벨포레_do";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Intro;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bstone.belleforet.do;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Belleforet_do_adhoc;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG_do;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4D7D7E9D27FC21E300BFC3F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 149C50DAA21F86EBD49C593E /* Pods-Belleforet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Belleforet/BelleforetDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3SVWV6Z8L;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Belleforet/Belleforet.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "벨포레";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Intro;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bstone.belleforet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4D7D7E9E27FC21E300BFC3F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB933F7211811213E92873C /* Pods-Belleforet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Belleforet/BelleforetRelease.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3SVWV6Z8L;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Belleforet/Belleforet.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "벨포레";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Intro;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bstone.belleforet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Belleforet;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4D7E4C6227C45C0200F1F336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D7E4C6327C45C0200F1F336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D7E4C6527C45C0200F1F336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 149C50DAA21F86EBD49C593E /* Pods-Belleforet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Belleforet/BelleforetDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = W3SVWV6Z8L;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Belleforet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "벨포레";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Intro;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bstone.belleforet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4D7E4C6627C45C0200F1F336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB933F7211811213E92873C /* Pods-Belleforet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Belleforet/BelleforetRelease.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = W3SVWV6Z8L;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Belleforet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "벨포레";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Intro;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bstone.belleforet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Belleforet_adhoc;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D170EF227D7236D006D68FE /* Build configuration list for PBXNativeTarget "Belleforet ip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D170EF327D7236D006D68FE /* Debug */,
+				4D170EF427D7236D006D68FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D49E13E27ED44E1001D749B /* Build configuration list for PBXNativeTarget "Belleforet do" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D49E13F27ED44E1001D749B /* Debug */,
+				4D49E14027ED44E1001D749B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7D7E9C27FC21E300BFC3F8 /* Build configuration list for PBXNativeTarget "Belleforet_real" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7D7E9D27FC21E300BFC3F8 /* Debug */,
+				4D7D7E9E27FC21E300BFC3F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7E4C4B27C45C0000F1F336 /* Build configuration list for PBXProject "Belleforet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7E4C6227C45C0200F1F336 /* Debug */,
+				4D7E4C6327C45C0200F1F336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7E4C6427C45C0200F1F336 /* Build configuration list for PBXNativeTarget "Belleforet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7E4C6527C45C0200F1F336 /* Debug */,
+				4D7E4C6627C45C0200F1F336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D7E4C4827C45C0000F1F336 /* Project object */;
+}

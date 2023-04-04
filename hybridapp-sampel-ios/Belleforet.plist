@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.bstone.belleforet</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>belleforetApp</string>
+			</array>
+		</dict>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>kftc-bankpay</string>
+		<string>ispmobile</string>
+		<string>shinhan-sr-ansimclick</string>
+		<string>smshinhanansimclick</string>
+		<string>hdcardappcardansimclick</string>
+		<string>smhyundaiansimclick</string>
+		<string>mpocket.online.ansimclick</string>
+		<string>scardcertiapp</string>
+		<string>cloudpay</string>
+		<string>nhappcardansimclick</string>
+		<string>nonghyupcardansimclick</string>
+		<string>kb-acp</string>
+		<string>lotteappcard</string>
+		<string>lottesmartpay</string>
+		<string>citispay</string>
+		<string>shinsegaeeasypayment</string>
+		<string>kakaotalk</string>
+		<string>tswansimclick</string>
+		<string>nhallonepayansimclick</string>
+		<string>citimobileapp</string>
+		<string>payco</string>
+		<string>hanaskcardmobileportal</string>
+		<string>wooripay</string>
+		<string>com.wooricard.wcard</string>
+		<string>lpayapp</string>
+		<string>hanawalletmembers</string>
+		<string>tauthlink</string>
+		<string>ktauthexternalcall</string>
+		<string>upluscorporation</string>
+		<string>liivbank</string>
+		<string>kb-bankpay</string>
+		<string>naversearchthirdlogin</string>
+		<string>lmslpay</string>
+		<string>newliiv</string>
+		<string>NewSmartPib </string>
+		<string>kbbank</string>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Intro</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
